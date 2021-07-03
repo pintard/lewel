@@ -6,8 +6,8 @@ setup(
     description='simple welcome screen and diagnostic program for shell',
     version='1.0',
     license='MIT',
-    author='reshaun',
-    author_email='pintardr@gmail.com',
+    author='donovan',
+    author_email='donovanpintard@gmail.com',
     packages=find_packages(),
     cmdclass={
         "package": Package

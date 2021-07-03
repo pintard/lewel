@@ -67,7 +67,8 @@ def print_image(image):  # prints image pixels
         print('   ', end='')
         for y in range(columns):
             r, g, b = image[x][y]
-            pixel_row += "\x1b[48;5;{}m \x1b[0m".format(str(rgb_xterm(r, g, b)))
+            pixel_row += "\x1b[48;5;{}m \x1b[0m".format(
+                str(rgb_xterm(r, g, b)))
         print(pixel_row, end='', flush=True)
         pixel_row = ""
         print('')

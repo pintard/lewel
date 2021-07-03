@@ -3,7 +3,7 @@ from json import load
 
 # Configurations
 main_directory = os.path.dirname(__file__)
-absolute_path = os.path.join(main_directory, "../config/config.json")
+absolute_path = os.path.join(main_directory, "config/config.json")
 with open(absolute_path) as config_file:
     config_data = load(config_file)
 # Manipulation

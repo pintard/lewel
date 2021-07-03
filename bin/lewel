@@ -33,7 +33,7 @@ shadow_image = ".assist/.plew"
 
 # Configurations
 main_directory = os.path.dirname(__file__)
-json_path = os.path.join(main_directory, "../config/config.json")
+json_path = os.path.join(main_directory, "config/config.json")
 try:
     with open(json_path) as config_file:
         config_data = load(config_file)
@@ -165,7 +165,7 @@ def config_lewel():
     class UnfinishedProcessError(Exception):
         pass
     from yaml import safe_load
-    yaml_path = os.path.join(main_directory, "../config/.config_options.yaml")
+    yaml_path = os.path.join(main_directory, "config/.config_options.yaml")
     try:
         with open(yaml_path, 'r') as config_options_file:
             yaml_data = safe_load(config_options_file)
