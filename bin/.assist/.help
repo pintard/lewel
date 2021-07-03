@@ -1,0 +1,20 @@
+
+lewel is a terminal diagnostic and welcome screen program written in python3.
+
+Example usages:
+  [1]  lewel
+  [2]  lewel init
+  [3]  lewel reset
+  [4]  level config
+  [5]  lewel config open
+  [6]  lewel config vim
+  [7]  lewel help
+
+Usage descriptions:
+  [1]  will print the welcome screen to terminal
+  [2]  will initialize or reinitialize the program. useful for adding/changing pics
+  [3]  will reset the program excluding configuration details
+  [4]  will open configuration wizard in command line
+  [5]  will open configuration file in default text editor/application
+  [6]  will open configuration file in vim text editor
+  [7]  will print this help message
