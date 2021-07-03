@@ -2,6 +2,8 @@
 
 lewel is a terminal diagnostic and welcome screen program written in python. So far it has support for macOS devices running python3 and macOS version 11.0.1 (2/20).
 
+![sample image](sample.png)
+
 ## **TABLE OF CONTENTS**
 
 [I. Usage](#Usage)
